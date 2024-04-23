@@ -92,3 +92,4 @@ def open_ucon_for_com_port(com_port_name, index):
 # Iterate through the list of COM ports and open a uCon instance for each one
 for index, com_port_name in enumerate(sorted(com_ports)):
     open_ucon_for_com_port(com_port_name, index)
+# test comment
