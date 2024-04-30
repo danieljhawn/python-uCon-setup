@@ -16,18 +16,20 @@ def open_ucon_for_com_port(com_port_name, index):
 
     # Launch uCon
     os.startfile(ucon_path)
-    time.sleep(.5)  # Wait for uCon to open
+    time.sleep(1)  # Wait for uCon to open
 
     # Select the desired COM port using keystrokes
-    pyautogui.press('tab', presses=4, interval=0.01)  # Navigate to the COM port dropdown
-    for _ in range(index + 1):  # Move down to the desired COM port
-        pyautogui.press('down')
+    pyautogui.press('tab', presses=4, interval=0.1)  # Navigate to the COM port dropdown
+    time.sleep(1) 
+    pyautogui.write(com_port_name)
+    # for _ in range(index + 1):  # Move down to the desired COM port
+    #     pyautogui.press('down')
     pyautogui.press('tab', presses=2, interval=0.01)  # Navigate to the User Defined checkbox
     pyautogui.press('space', presses=1, interval=0.01)  # check the checkbox
     pyautogui.press('tab', presses=1, interval=0.01)  # Navigate to the baud rate field
     pyautogui.write('4096')  # set baud rate to 4096
     pyautogui.press('enter')  # open uCon
-    time.sleep(.5)  
+    time.sleep(1)  
   
     terminal_window_x = 50
     terminal_window_y = 250

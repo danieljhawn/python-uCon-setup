@@ -1,0 +1,62 @@
+##### Log created (Apr_30,2024@09:16:10) with uCON SVN: 1437
+con
+--= System Config =--
+Version: 5.18R
+Model #:FI-3C 3-S04NAM
+CRST On
+Cooldown at 60 / 60 sec
+Low Bat Off
+PFRST Hrs: 4
+T Faults Disabled.
+SOTF Enabled
+
+# SGS-URD>>sta
+State: Sleep
+Min: 200
+Fault Points: 0
+Prefault Iq: 29
+Avg short current: 0
+Avg 1H cur: 0
+24hr cur: 31
+Fault threshold: 310
+DynaSOTF HI: 31
+DynaSOTF Threshold: 310
+ACTIVE 20000/0
+Bat
+
+# SGS-URD>>sta
+State: Sleep
+ * SOTF!
+ Prefault Iq: 0
+LED Duration: 14400
+LED Timer: 69
+Min: 200
+Fault Points: 0
+Prefault Iq: 29
+Avg short current: 0
+Avg 1H cur: 0
+24hr cur: 31
+Fault threshold: 310
+DynaSOTF HI: 31
+DynaSOTF Threshold: 310
+ACTIVE 20000/0
+Bat
+
+# SGS-URD>>eve
+Uptime (minutes): 40087
+Listing all stored events:
+PFault Count: 32
+TFault Count: 0
+WDT Resets: 0
+ -= Newest =- 
+SOTF, I-preF: 0, I-F: 500, SOTFLimit: 310, T: 40086
+Current Reset, Thold-Iq: 0, Avg-Iq: 30, T: 29992
+SOTF, I-preF: 0, I-F: 607, SOTFLimit: 310, T: 29990
+Current Reset, Thold-Iq: 0, Avg-Iq: 30, T: 12908
+SOTF, I-preF: 0, I-F: 605, SOTFLimit: 310, T: 12847
+Current Reset, Thold-Iq: 33, Avg-Iq: 31, T: 12829
+PFault, I-preF: 33, I-F: 467, T: 12826
+Current Reset, Thold-Iq: 12, Avg-Iq: 30, T: 12799
+PFault, I-preF: 12, I-F: 566, T: 12794
+Current Reset, Thold-Iq: 0, Avg-Iq: 29, T: 12784
+ -= Oldest =- 

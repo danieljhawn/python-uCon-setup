@@ -1,0 +1,61 @@
+##### Log created (Apr_30,2024@09:11:40) with uCON SVN: 1437
+con
+--= System Config =--
+Version: 5.18R
+Model #:FI-5A 3-S04TRA-*U
+CRST Not Allowed
+High LED
+PFRST Hrs: 4
+TFRST Hrs: 0
+SOTF Enabled
+
+# SGS-OH>>sta
+State: Sleep
+Min: 200
+Fault Points: 0
+Prefault Iq: 31
+Avg short current: 0
+Avg 1H cur: 0
+24hr cur: 138
+Fault threshold: 1380
+DynaSOTF HI: 138
+DynaSOTF Threshold: 1380
+ACTIVE 20000/0
+Bat
+
+# SGS-OH>>sta
+State: Sleep
+ * SOTF!
+ Prefault Iq: 0
+LED Duration: 14400
+LED Timer: 72
+Min: 200
+Fault Points: 0
+Prefault Iq: 31
+Avg short current: 0
+Avg 1H cur: 0
+24hr cur: 138
+Fault threshold: 1380
+DynaSOTF HI: 138
+DynaSOTF Threshold: 1380
+ACTIVE 20000/0
+Bat
+
+# SGS-OH>>eve
+Uptime (minutes): 178287
+Listing all stored events:
+PFault Count: 5
+TFault Count: 0
+WDT Resets: 0
+ -= Newest =- 
+SOTF, I-preF: 0, I-F: 500, SOTFLimit: 1380, T: 178286
+SOTF, I-preF: 0, I-F: 406, SOTFLimit: 200, T: 11749
+SOTF, I-preF: 0, I-F: 546, SOTFLimit: 200, T: 11749
+SOTF, I-preF: 0, I-F: 788, SOTFLimit: 200, T: 11748
+SOTF, I-preF: 0, I-F: 767, SOTFLimit: 200, T: 11748
+No Event...
+No Event...
+No Event...
+No Event...
+No Event...
+ -= Oldest =- 
