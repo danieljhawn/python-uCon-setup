@@ -2,7 +2,7 @@ import os
 import serial.tools.list_ports
 import time
 import pyautogui
-from logParsing import readLog
+from logParse import readLog
 
 # Get the list of available COM ports
 com_ports = [port.device for port in serial.tools.list_ports.comports()]
